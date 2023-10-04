@@ -31,7 +31,7 @@ const UserAuthForm: FC<UserAuthFormProps> = ({ className, ...props }) => {
         size="sm"
         className="w-full"
       >
-        {}
+        {isLoading ? null : <Icons.logo className="h-4 w-4 mr-2" />}
         Google
       </Button>
     </div>
