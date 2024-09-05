@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: whitesmoke;
+  align-items: center;
+}
+
+button{
+    background-color: yellowgreen;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
