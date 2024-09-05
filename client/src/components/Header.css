@@ -6,6 +6,13 @@
   align-items: center;
 }
 
+.subHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 button{
     background-color: yellowgreen;
     padding: 15px;

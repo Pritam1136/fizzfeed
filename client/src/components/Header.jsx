@@ -4,7 +4,10 @@ function Header() {
   return (
     <div className="Header">
       <div>GatherUp</div>
-      <button>Login</button>
+      <div className="subHeader">
+        <div>Products</div>
+        <button>Login</button>
+      </div>
     </div>
   );
 }
